@@ -1,1 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,100&display=swap');
+* {
 
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0px;
+  background-image: url('https://media.giphy.com/media/LOXGmyPsXPT8VyAuCS/giphy.gif')
+
+
+
+  }
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+html {
+    margin: 0px;
+    padding: 0px;
+    color: -internal-root-color;
+
+  }
+figure{
+   width:100%;
+   margin: 0;
+   padding: 350px 0 0 0;
+   position: absolute;
+   left: 0;
+   bottom 0px;
+   overflow hidden;
+   background-image :url('star.jpg');
+   animation: staranim 75s linear infinite;
+}
+
+@keyframes staranim{
+  0%{background-position: 0 0;}
+  100%{background-position: 2122px 0;}
+}
+
+.blink{
+		font-family: 'Roboto Mono', monospace;
+		font-weight:bold;
+		font-style:italic;
+		font-size:70px;
+		margin-left:auto;
+		text-align:center;
+		margin-top:5px;
+		margin-right:auto;
+    color:pink;
+
+                animation: blink 2s ease infinite;
+}
+@keyframes blink{
+  0%{opacity:0;}
+  50%{opacity:1;}
+  100%{opacity:0;}
+}
+
+.blink2{
+		font-family: 'Roboto Mono', monospace;
+		font-weight:bold;
+		font-style:italic;
+		font-size:70px;
+		margin-left:auto;
+		text-align:center;
+		margin-top:5px;
+		margin-right:auto;
+    color:pink;
+
+                animation: blink 2s ease infinite;
+}
+@keyframes blink{
+  0%{opacity:0;}
+  50%{opacity:1;}
+  100%{opacity:0;}
+}
